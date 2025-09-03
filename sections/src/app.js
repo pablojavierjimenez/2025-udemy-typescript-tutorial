@@ -1,6 +1,9 @@
 "use strict";
-let msg = "hola putos";
-let hero = {
+/** @type {*} */
+var a = 3.141615;
+var b = 50;
+var msg = "hello persons!";
+var hero = {
     age: 60,
     name: "spiderMan"
 };
