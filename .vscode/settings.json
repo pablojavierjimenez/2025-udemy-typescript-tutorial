@@ -31,6 +31,7 @@
     // "source.fixAll.stylelint": true,
     "source.fixAll.eslint":"always",
   },
+  "editor.tabSize": 2,
   "todohighlight.keywords": [
       {
         "text": "NOTE:",
