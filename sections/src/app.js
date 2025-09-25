@@ -1,11 +1,52 @@
 "use strict";
-/** @type {*} */
-var a = 3.141615;
-var b = 50;
-var msg = "hello persons!";
-var hero = {
-    age: 60,
-    name: "spiderMan"
+// ------- Type declaration section -----
+// ----- Code section -----
+// Objetos
+var batMovil = {
+    carColor: "Negra",
+    modelo: "6x6",
+    antibalas: true,
+    pasajeros: 4,
 };
-hero.age = 34;
-console.log(hero.age + 2, hero.name);
+var bumblebee = {
+    carColor: "Amarillo con negro",
+    modelo: "4x2",
+    antibalas: true,
+    pasajeros: 4,
+    disparar: function () {
+        // El método disparar es opcional
+        console.log("Disparando");
+    },
+};
+// Villanos debe de ser un arreglo de objetos personalizados
+var villanos = [
+    {
+        nombre: "Lex Luthor",
+        edad: 54,
+        mutante: false,
+    },
+    {
+        nombre: "Erik Magnus Lehnsherr",
+        edad: 49,
+        mutante: true,
+    },
+    {
+        nombre: "James Logan",
+        edad: undefined,
+        mutante: true,
+    },
+];
+// Multiples tipos
+// cree dos tipos, uno para charles y otro para apocalipsis
+var charles = {
+    poder: "psíquico",
+    estatura: 1.78,
+};
+var apocalipsis = {
+    leader: true,
+    miembros: ["Magneto", "Tormenta", "Psylocke", "Angel"],
+};
+// Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
+var mystique;
+mystique = charles;
+mystique = apocalipsis;
