@@ -4,7 +4,8 @@
     // File Layout
     // "rootDir": "./src",
     "outDir": "./src",  // "outDir": "./dist",
-
+    // outFile
+    "outFile": "./src/main.js",
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "none",
@@ -16,9 +17,11 @@
     // and npm install -D @types/node
 
     // Other Outputs
-    "sourceMap": false,
+    "sourceMap": true,
     "declaration": false,
     "declarationMap": false,
+
+    "removeComments": true,
 
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
@@ -40,5 +43,7 @@
     "noUncheckedSideEffectImports": true,
     // "moduleDetection": "force",
     "skipLibCheck": true,
-  }
+  },
+  "exclude": ["ruta/carpeta/que-quiero-ignorar"],
+  // "include": ["ruta/carpeta/que-quiero-ignorar"]
 }

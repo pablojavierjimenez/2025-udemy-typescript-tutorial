@@ -9,3 +9,4 @@ console.log("\n====== TUPLES ======");
     console.log(hero);
 })();
 console.log("====== FIN TUPLES ======");
+//# sourceMappingURL=tuples.js.map

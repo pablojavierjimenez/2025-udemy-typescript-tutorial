@@ -6,3 +6,4 @@
     console.log('es superman: ', isSuperman);
     console.log('========FIN Boolean========');
 })();
+//# sourceMappingURL=booleans.js.map

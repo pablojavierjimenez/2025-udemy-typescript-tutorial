@@ -11,11 +11,8 @@ console.log("====== NUMBERS ======");
     else {
         console.log("podemos ganar");
     }
-    /**
-     * cuidado con esto que NaN en javascript es considerado un numero
-     * porque la function Number() siempre retorna un numero.
-     */
     avengers = Number('55A');
     console.log({ avengers: avengers, villains: villains });
 })();
 console.log("====== FIN Numbers ======");
+//# sourceMappingURL=numbers.js.map

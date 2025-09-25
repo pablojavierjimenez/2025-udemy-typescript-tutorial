@@ -1,7 +1,4 @@
 "use strict";
-// ------- Type declaration section -----
-// ----- Code section -----
-// Objetos
 var batMovil = {
     carColor: "Negra",
     modelo: "6x6",
@@ -14,11 +11,9 @@ var bumblebee = {
     antibalas: true,
     pasajeros: 4,
     disparar: function () {
-        // El método disparar es opcional
         console.log("Disparando");
     },
 };
-// Villanos debe de ser un arreglo de objetos personalizados
 var villanos = [
     {
         nombre: "Lex Luthor",
@@ -36,8 +31,6 @@ var villanos = [
         mutante: true,
     },
 ];
-// Multiples tipos
-// cree dos tipos, uno para charles y otro para apocalipsis
 var charles = {
     poder: "psíquico",
     estatura: 1.78,
@@ -46,7 +39,8 @@ var apocalipsis = {
     leader: true,
     miembros: ["Magneto", "Tormenta", "Psylocke", "Angel"],
 };
-// Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
 var mystique;
 mystique = charles;
 mystique = apocalipsis;
+console.log(apocalipsis);
+//# sourceMappingURL=app.js.map

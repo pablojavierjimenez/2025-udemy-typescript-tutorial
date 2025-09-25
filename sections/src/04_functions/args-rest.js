@@ -12,3 +12,4 @@
     console.log({ secretName: secretName });
     console.log("======== FIN ARGS-REST =======");
 })();
+//# sourceMappingURL=args-rest.js.map

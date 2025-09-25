@@ -12,3 +12,4 @@ console.log("\n====== VOID ======");
     console.log(a, b);
 })();
 console.log("====== FIN VOID ======");
+//# sourceMappingURL=void.js.map
