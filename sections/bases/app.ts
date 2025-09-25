@@ -1,17 +1,82 @@
+// ------- Type declaration section -----
 
-/** @type {*} */
-const a:number = 3.141615;
-let b:number = 50;
+type HeroVehicleType = {
+  carColor: string;
+  modelo: string;
+  antibalas: boolean;
+  pasajeros: Number;
+  disparar?: () => void;
+};
 
-
-let msg: string = "hello persons!";
-
-
-let hero = {
-    age: 60,
-    name: "spiderMan"
+type VillainType = {
+    nombre: string
+    edad: Number | undefined
+    mutante: boolean
 }
 
-hero.age = 34;
+type CharlesType = {
+  poder: string
+  estatura: Number
+};
 
-console.log(hero.age +2, hero.name);
+type ApocalipsisType = {
+  leader: boolean
+  miembros: string[]
+};
+
+// ----- Code section -----
+// Objetos
+const batMovil = {
+  carColor: "Negra",
+  modelo: "6x6",
+  antibalas: true,
+  pasajeros: 4,
+};
+
+const bumblebee = {
+  carColor: "Amarillo con negro",
+  modelo: "4x2",
+  antibalas: true,
+  pasajeros: 4,
+  disparar() {
+    // El método disparar es opcional
+    console.log("Disparando");
+  },
+};
+
+// Villanos debe de ser un arreglo de objetos personalizados
+const villanos: VillainType[] = [
+  {
+    nombre: "Lex Luthor",
+    edad: 54,
+    mutante: false,
+  },
+  {
+    nombre: "Erik Magnus Lehnsherr",
+    edad: 49,
+    mutante: true,
+  },
+  {
+    nombre: "James Logan",
+    edad: undefined,
+    mutante: true,
+  },
+];
+
+// Multiples tipos
+// cree dos tipos, uno para charles y otro para apocalipsis
+const charles: CharlesType = {
+  poder: "psíquico",
+  estatura: 1.78,
+};
+
+const apocalipsis: ApocalipsisType = {
+  leader: true,
+  miembros: ["Magneto", "Tormenta", "Psylocke", "Angel"],
+};
+
+// Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
+let mystique: ( CharlesType | ApocalipsisType );
+
+mystique = charles;
+mystique = apocalipsis;
