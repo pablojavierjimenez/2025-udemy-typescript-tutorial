@@ -74,3 +74,28 @@ Puntualmente tenemos:
 Al final de la sección, tendremos el examen práctico y el examen teórico.
 
 -----
+
+----
+### Sección 5: Custom types and objects
+_[GO to Section 5 Branch](https://github.com/pablojavierjimenez/2025-udemy-typescript-tutorial/tree/section/5_custom-types-and-objects)_
+
+----
+### Sección 6: Depuración y errores en el tsconfig.json
+_[GO to Section 6 Branch]()_
+
+- [Opciones del compilador de typescripts](https://www.typescriptlang.org/tsconfig/)
+
+```json
+{
+  "compilerOptions": {
+    // File Layout
+    // "rootDir": "./src",
+    "outDir": "./src",  // "outDir": "./dist",
+    // outFile
+    "outFile": "./src/main.js",
+  },
+  "exclude": ["ruta/carpeta/que-quiero-ignorar"],
+  // cuidado con include que lo único que incluirá sera solo solo solo lo que este en include OJO!
+  "include": ["ruta/carpeta/que-quiero-incluir"]
+}
+```

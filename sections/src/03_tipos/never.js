@@ -10,6 +10,6 @@ console.log("\n====== NEVER ======");
     };
     var a = error(12, "ERROR!! 😱");
     console.log(a);
-    //   console.log();
 })();
 console.log("====== FIN NEVER ======");
+//# sourceMappingURL=never.js.map

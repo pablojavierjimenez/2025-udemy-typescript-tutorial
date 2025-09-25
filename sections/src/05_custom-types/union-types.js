@@ -8,3 +8,4 @@
     myCustomVariable = { name: "capitán", age: 78, powers: [3] };
     console.log(typeof myCustomVariable);
 })();
+//# sourceMappingURL=union-types.js.map

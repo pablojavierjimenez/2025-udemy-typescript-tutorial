@@ -11,3 +11,4 @@
     console.log(typeof activeBatSignal);
     console.log("======== FIN FUNCTIONS =======");
 })();
+//# sourceMappingURL=functions.js.map
