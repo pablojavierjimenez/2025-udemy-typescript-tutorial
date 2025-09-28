@@ -99,3 +99,8 @@ _[GO to Section 6 Branch]()_
   "include": ["ruta/carpeta/que-quiero-incluir"]
 }
 ```
+----
+### Sección 7: Características de ES6 o JavaScript2015 disponibles a través TypeScript
+_[GO to Section 7 Branch]()_
+
+- [Opciones del compilador de typescripts](https://www.typescriptlang.org/tsconfig/)
