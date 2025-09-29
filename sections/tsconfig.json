@@ -45,5 +45,5 @@
     "skipLibCheck": true,
   },
   "exclude": ["ruta/carpeta/que-quiero-ignorar"],
-  "include": ["bases/08_classes"]
+  "include": ["bases/09_interfaces"]
 }
