@@ -9,7 +9,7 @@
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "none",
-    "target": "es5",
+    "target": "es6",
     "types": [],
     // For nodejs:
     // "lib": ["esnext"],
@@ -45,5 +45,5 @@
     "skipLibCheck": true,
   },
   "exclude": ["ruta/carpeta/que-quiero-ignorar"],
-  "include": ["bases/07_ES6"]
+  "include": ["bases/08_classes"]
 }
