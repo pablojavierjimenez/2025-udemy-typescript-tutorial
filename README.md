@@ -106,7 +106,14 @@ _[GO to Section 7 Branch]()_
 - [Opciones del compilador de typescripts](https://www.typescriptlang.org/tsconfig/)
 
 ----
-### Sección 7: Características de ES6 o JavaScript2015 disponibles a través TypeScript
-_[GO to Section 7 Branch]()_
+### Sección 8: Características de ES6 o JavaScript2015 disponibles a través TypeScript
+_[GO to Section 8 Branch](https://github.com/pablojavierjimenez/2025-udemy-typescript-tutorial/tree/section/8_typescript-classes)_
 
 - [código de la sección en el github de Fernando herrera](https://github.com/Klerith/ts-bases/tree/fin-seccion-8)
+
+----
+### Sección 9: interfaces
+_[GO to Section 9 Branch](https://github.com/pablojavierjimenez/2025-udemy-typescript-tutorial/tree/section/8_typescript-classes)_
+
+- [Differences Between Type Aliases and Interfaces](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
+- [código de la sección 9 en el github de Fernando herrera](https://github.com/Klerith/ts-bases/tree/fin-seccion-8)
