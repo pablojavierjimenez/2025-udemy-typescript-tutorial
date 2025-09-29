@@ -104,3 +104,9 @@ _[GO to Section 6 Branch]()_
 _[GO to Section 7 Branch]()_
 
 - [Opciones del compilador de typescripts](https://www.typescriptlang.org/tsconfig/)
+
+----
+### Sección 7: Características de ES6 o JavaScript2015 disponibles a través TypeScript
+_[GO to Section 7 Branch]()_
+
+- [código de la sección en el github de Fernando herrera](https://github.com/Klerith/ts-bases/tree/fin-seccion-8)
