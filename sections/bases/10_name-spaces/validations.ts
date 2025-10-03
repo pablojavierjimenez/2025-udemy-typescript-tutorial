@@ -43,7 +43,7 @@ console.log("Área del círculo:", c.area());
 console.log("Área del rectángulo:", r.area());
 
 /**
-  * ¿O tambien se puede utilizar para encapsular funciones sueltas
+  * ¿O también se puede utilizar para encapsular funciones sueltas
 */
 namespace Validations {
   export const validateText = (text: string): boolean => {

@@ -1,28 +1,36 @@
-# Proyecto inicial - Curso de TypeScript
+# TypeScript Project with Bun
 
-* Lo primero que debemos de hacer después de descargar el código es ejecutar el comando:
+## Project Overview
+This project has been migrated from Webpack to Bun while maintaining TypeScript configuration. The original webpack configuration has been preserved in backup files.
 
-```
-npm install
-```
-Ese comando descargará todos los módulos de node necesarios para ejecutar el proyecto.
+### Recent Changes (2025-10-03)
+1. Migration from Webpack to Bun
+   - Original package.json saved as `package.old.json`
+   - New Bun configuration added in `bun.config.js`
+   - Updated build and development scripts
 
-
-* Cuando termine de instalar los node_modules, entonces podermos ejecutar el proyecto de con el siguiente comando
-
-```
-npm start
-```
-Para que eso funcione, recuerden que deben de ejecutar ese comando en el mismo directorio donde se encuentra el ```package.json```
-
-## Cambiar el puerto
-Por defecto, el puerto que configuré para este proyecto es el ```8081```, pero si necesitan cambiarlo porque pueda que ese puerto lo use su computadora, pueden cambiarlo abriendo el ```package.json``` >> scripts. Ahí verán la instrucción que lanza el servidor de desarrollo
-
-```
-"start": "webpack serve --mode development --open --port=8081"
+## Installation
+```bash
+bun install
 ```
 
-Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicamente graban los cambios antes de ejecutar el ```npm start``` nuevamente)
+## Available Scripts
+- `bun run start`: Starts the development server with hot reload
+- `bun run build`: Builds the project for production
+- `bun run dev`: Runs the development server with hot reload (alternative)
 
+## Development Server
+The development server runs on port 8081 by default. You can modify this in the `bun.config.js` file.
 
-# curso-typescript
+## Configuration Files
+- `bun.config.js`: Bun specific configuration
+- `tsconfig.json`: TypeScript configuration (preserved from original setup)
+- `package.json`: Updated for Bun compatibility
+- `package.old.json`: Preserved Webpack configuration
+
+## Notes
+- The original Webpack configuration has been preserved for reference
+- TypeScript configuration remains unchanged
+- Hot reload is enabled by default for development
+
+For more information about Bun, visit [Bun's official documentation](https://bun.sh/docs)

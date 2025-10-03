@@ -7,15 +7,15 @@
     "typescript": "^4.3.5"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "css-loader": "^6.2.0",
+    "ts-loader": "^9.2.5",
+    "webpack": "^5.102.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.2"
   },
   "scripts": {
-    "start": "bun --hot src/index.ts",
-    "build": "bun build ./src/index.ts --outdir ./dist",
-    "dev": "bun --hot run src/index.ts"
+    "start": "webpack serve --mode development"
   },
-  "module": "src/index.ts",
-  "type": "module",
   "author": "",
   "license": "ISC"
 }
