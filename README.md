@@ -9,9 +9,6 @@
 :~$ tsc -w
 ```
 
-
-
-
 ## Develop
 se creo la rama develop.
 
