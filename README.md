@@ -9,9 +9,6 @@
 :~$ tsc -w
 ```
 
-
-
-
 ## Develop
 se creo la rama develop.
 
@@ -113,7 +110,33 @@ _[GO to Section 8 Branch](https://github.com/pablojavierjimenez/2025-udemy-types
 
 ----
 ### Sección 9: interfaces
-_[GO to Section 9 Branch](https://github.com/pablojavierjimenez/2025-udemy-typescript-tutorial/tree/section/8_typescript-classes)_
+_[GO to Section 9 Branch](https://github.com/pablojavierjimenez/2025-udemy-typescript-tutorial/tree/section/9_interfaces)_
 
 - [Differences Between Type Aliases and Interfaces](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
 - [código de la sección 9 en el github de Fernando herrera](https://github.com/Klerith/ts-bases/tree/fin-seccion-8)
+
+----
+
+### Sección 10: interfaces
+_[GO to Section 10 Branch](https://github.com/pablojavierjimenez/2025-udemy-typescript-tutorial/tree/section/10_name-spaces)_
+
+- [Differences Between Type Aliases and Interfaces](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
+
+- [código de la sección 10 en el github de Fernando herrera](https://github.com/Klerith/curso-typescript/tree/fin-seccion-10)
+
+- Commit message: 
+  ```
+  "feat(namespaces): implement TypeScript namespace pattern
+
+  SCOPE: name-spaces folder implementation
+
+  - Add basic namespace structure for Hero management
+  - Implement Hero class with TypeScript namespaces
+  - Configure webpack for namespace bundling
+  - Add interfaces and types for Hero entity
+  - Include example usage in index.ts
+  - Setup proper module resolution in tsconfig.json
+
+  This change implements TypeScript namespaces for better code organization and demonstrates proper namespace usage in a TypeScript project."
+  ```
+  para asegurarme los ultimos cambios
