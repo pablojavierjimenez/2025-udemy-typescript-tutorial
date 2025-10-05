@@ -139,16 +139,3 @@ _[GO to Section 10 Branch](https://github.com/pablojavierjimenez/2025-udemy-type
 
   This change implements TypeScript namespaces for better code organization and demonstrates proper namespace usage in a TypeScript project."
   ```
-  para asegurarme los ultimos cambios
-
-
-  ```
-  feat(build):  Refactor project setup: migrate from Webpack to Parcel, update TypeScript configuration, and remove unnecessary files
-
-  - Changed project name from "ts-dev" to "test-parcel" in package.json
-  - Updated package.json to use Parcel for development and build scripts
-  - Removed Webpack configuration file (webpack.config.js)
-  - Updated TypeScript configuration (tsconfig.json) to align with Parcel requirements
-  - Added new devDependencies for Parcel and updated TypeScript version
-  - Created a new package-lock.json file
-  ```
