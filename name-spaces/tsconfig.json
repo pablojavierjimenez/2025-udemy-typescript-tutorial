@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    "target": "es2018",
     "module": "esnext",              // Usar un módulo moderno (Parcel lo reescribirá al bundle)
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "isolatedModules": true,        // RECOMENDADO por Parcel para la transpilación aislada.
+    "isolatedModules": false,        // RECOMENDADO por Parcel para la transpilación aislada.
     "skipLibCheck": true,           // Opcional: Acelera la compilación al saltarse la verificación de tipos en librerías
     "rootDir": "./src"              // Sugerencia: Especificar dónde están tus archivos fuente
   },

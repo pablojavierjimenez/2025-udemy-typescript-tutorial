@@ -1,17 +1,11 @@
-import { Hero as HeroClass } from "./classes/Hero.class";
-import * as ConstClasses from "./classes/const.class";
+import { getPokemon, getPokemonPromiseExample } from "./generics/get-pokemon";
 
-console.log('Hola Mundo!');
-const circleDiameter = ConstClasses.PI * 2;
-console.log( { circleDiameter } );
-console.log('circle area', ConstClasses.calcCircleArea(10));
+getPokemonPromiseExample()
+  .then((res) => console.log(res))
+  .catch((err) => console.log("Error en la llamada"))
+  .finally(() => console.log("Finally"));
 
-
-const Hero  = 1234;
-
-const ironMan = new HeroClass('Iron Man', 400, 42);
-console.log(ironMan);
-
-const spiderMan = new HeroClass( 'Spider Man ', 9, 16 );
-console.log( spiderMan );
-console.log(spiderMan.power);
+getPokemon(1)
+  .then((res) => console.log(res.sprites.front_default))
+  .catch((err) => console.log("Error en la llamada"))
+  .finally(() => console.log("Finally"));
