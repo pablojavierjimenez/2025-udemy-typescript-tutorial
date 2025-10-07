@@ -3,6 +3,10 @@ node_modules/
 .pnp/
 .pnp.js
 
+# parcel-bundler cache
+.cache/
+.parcel-cache/
+
 # Build outputs
 dist/
 build/

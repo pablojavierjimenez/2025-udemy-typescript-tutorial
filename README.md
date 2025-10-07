@@ -139,4 +139,42 @@ _[GO to Section 10 Branch](https://github.com/pablojavierjimenez/2025-udemy-type
 
   This change implements TypeScript namespaces for better code organization and demonstrates proper namespace usage in a TypeScript project."
   ```
-  para asegurarme los ultimos cambios
+
+-----
+
+### Sección 10: interfaces
+_[GO to Section 10 Branch](https://github.com/pablojavierjimenez/2025-udemy-typescript-tutorial/tree/section/10_name-spaces)_
+
+- [Differences Between Type Aliases and Interfaces](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
+
+- [código de la sección 10 en el github de Fernando herrera](https://github.com/Klerith/curso-typescript/tree/fin-seccion-10)
+
+  ```
+  feat(build):  Refactor project setup: migrate from Webpack to Parcel, update TypeScript configuration, and remove unnecessary files
+
+  - Changed project name from "ts-dev" to "test-parcel" in package.json
+  - Updated package.json to use Parcel for development and build scripts
+  - Removed Webpack configuration file (webpack.config.js)
+  - Updated TypeScript configuration (tsconfig.json) to align with Parcel requirements
+  - Added new devDependencies for Parcel and updated TypeScript version
+  - Created a new package-lock.json file
+  ```
+
+------------
+
+### Sección 11: generics
+_[GO to Section 11 Branch](https://github.com/pablojavierjimenez/2025-udemy-typescript-tutorial/tree/section/11_generics)_
+
+- [Herramienta para generar tipos e interfaces en typescript](https://quicktype.io/), tambien tiene una extension para vs code.
+
+- [código de la sección 11 en el github de Fernando herrera](https://github.com/Klerith/curso-typescript/tree/fin-seccion-11)
+
+  ```
+  feat: 🚀 feat(generics): add TypeScript generics examples and async/await with API integration
+  - Implementa ejemplos de funciones genéricas y arrow functions genéricas en TypeScript
+  - Agrega archivo de utilidades para imprimir objetos y funciones genéricas reutilizables 
+  - Añade integración con la API de Pokémon usando axios y tipado estricto con interfaces generadas
+  - Refactoriza el archivo principal para demostrar el uso de promesas y async/await con generics 
+  - Crea y exporta nuevas interfaces para Pokémon y Villain, y centraliza los exports de interfaces
+  - Ajusta tsconfig.json para compatibilidad con Parcel y tipado estricto
+  ```
