@@ -9,7 +9,8 @@
     "esModuleInterop": true,
     "isolatedModules": false,        // RECOMENDADO por Parcel para la transpilación aislada.
     "skipLibCheck": true,           // Opcional: Acelera la compilación al saltarse la verificación de tipos en librerías
-    "rootDir": "./src"              // Sugerencia: Especificar dónde están tus archivos fuente
+    "rootDir": "./src",              // Sugerencia: Especificar dónde están tus archivos fuente
+    "experimentalDecorators": true // Habilitar decoradores experimentales (si los usas)
   },
   "include": ["src/**/*"]           // Sugerencia: Asegurar que todos los archivos TS sean incluidos
 }

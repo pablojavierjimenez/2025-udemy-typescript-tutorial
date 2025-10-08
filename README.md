@@ -165,7 +165,7 @@ _[GO to Section 10 Branch](https://github.com/pablojavierjimenez/2025-udemy-type
 ### Sección 11: generics
 _[GO to Section 11 Branch](https://github.com/pablojavierjimenez/2025-udemy-typescript-tutorial/tree/section/11_generics)_
 
-- [Herramienta para generar tipos e interfaces en typescript](https://quicktype.io/), tambien tiene una extension para vs code.
+- [Herramienta para generar tipos e interfaces en typescript](https://quicktype.io/), también tiene una extension para vs code.
 
 - [código de la sección 11 en el github de Fernando herrera](https://github.com/Klerith/curso-typescript/tree/fin-seccion-11)
 
