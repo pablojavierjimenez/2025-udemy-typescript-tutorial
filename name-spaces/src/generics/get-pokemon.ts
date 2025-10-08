@@ -1,6 +1,13 @@
 import axios from 'axios';
 import { Pokemon as PokemonApiData } from '../interfaces/Pokemon';
 
+// Funcion generica avanzada:
+// La forma correcta es vincular el tipo V al tipo de la propiedad key dentro de T:
+export function getPokemonMulti<T, K extends keyof T>(obj: T, key: K, value: T[K]): T {
+  obj[key] = value;
+  return obj;
+}
+
 
 export const getPokemonPromiseExample = async (): Promise<number> => {
   console.log('Hola Pokemon');
