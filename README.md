@@ -178,3 +178,18 @@ _[GO to Section 11 Branch](https://github.com/pablojavierjimenez/2025-udemy-type
   - Crea y exporta nuevas interfaces para Pokémon y Villain, y centraliza los exports de interfaces
   - Ajusta tsconfig.json para compatibilidad con Parcel y tipado estricto
   ```
+------------
+
+### Sección 12: generics
+_[GO to Section 12 Branch](https://github.com/pablojavierjimenez/2025-udemy-typescript-tutorial/tree/section/12_decorators)_
+
+- [código de la sección 12 en el github de Fernando herrera](https://github.com/Klerith/curso-typescript/tree/fin-seccion-12)
+
+```
+feat(decorators): add TypeScript decorators examples and usage
+- Implementa ejemplos de decoradores de clase, método y propiedad en TypeScript
+- Explica el uso de decoradores y su sintaxis básica
+- Añade casos prácticos de validación y logging usando decoradores
+- Refactoriza archivos para demostrar la integración de decoradores en el proyecto
+- Actualiza tsconfig.json para habilitar experimentalDecorators y emitDecoratorMetadata
+```
