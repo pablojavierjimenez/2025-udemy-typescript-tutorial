@@ -67,5 +67,9 @@
         "isWholeLine": false,
       }
     ],
+    "cSpell.enabledLanguageIds": [
+      "COBOL",
+      "ACUCOBOL"
+    ],
 
 }
