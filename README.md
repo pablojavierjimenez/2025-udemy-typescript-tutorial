@@ -24,7 +24,7 @@ y poner en false los campos de source maps.
 {
     //...
     "module": "none",
-
+kjsfhvlisdbfvjz
     // Other Outputs
     "sourceMap": false,
     "declaration": false,
